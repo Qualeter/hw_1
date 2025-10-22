@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #2980b9;
+    margin-top: 30px;
+    border-left: 4px solid #3498db;
+    padding-left: 10px;
+}
+
+
+
+.main_menu {
+    background-color: #34495e;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.main_menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main_menu li {
+    margin: 0 15px;
+}
+
+.main_menu a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.main_menu a:hover,
+.main_menu a.active {
+    background-color: #3498db;
+}
+
+
+
+.page_navigation {
+    text-align: center;
+    margin: 30px 0;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+}
+
+.page_navigation a {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 8px 15px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    font-size: 14px;
+}
+
+.page_navigation a:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-3px);
+}
+
+
+
+ul, ol {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin: 8px 0;
+    padding-left: 5px;
+}
+
+.education li, .abilities li {
+    border-left: 3px solid #2ecc71;
+    padding-left: 10px;
+}
+
+.achvmnt li {
+    border-left: 3px solid #e74c3c;
+    padding-left: 10px;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #34495e;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #ecf0f1;
+}
+
+
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #7f8c8d;
+}
+
+footer hr {
+    border: none;
+    border-top: 1px solid #bdc3c7;
+    margin-bottom: 10px;
+}
+
+
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    .main_menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main_menu li {
+        margin: 5px 0;
+    }
+    
+    .page_navigation a {
+        display: block;
+        margin: 5px 0;
+    }
+    
+    table {
+        font-size: 14px;
+    }
+    
+    th, td {
+        padding: 8px;
+    }
+}
+
+
+
+.work_exp p {
+    font-style: italic;
+    color: #7f8c8d;
+    text-align: center;
+    padding: 20px;
+}
+
+.abilities li {
+    background-color: #f8fffe;
+}
+
+.achvmnt li {
+    background-color: #fff8f8;
+}
+
+.education li {
+    background-color: #f8fff8;
+}

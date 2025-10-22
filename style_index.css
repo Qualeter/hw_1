@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #2980b9;
+    margin-top: 30px;
+}
+
+
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+
+.pages_navigation {
+    background-color: #34495e;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.pages_navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pages_navigation li {
+    margin: 0 15px;
+}
+
+.pages_navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.pages_navigation a:hover,
+.pages_navigation a.active {
+    background-color: #3498db;
+}
+
+
+
+.index_navigation {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.index_navigation a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px 15px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.index_navigation a:hover {
+    background-color: #2980b9;
+}
+
+
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #7f8c8d;
+}
+
+footer hr {
+    border: none;
+    border-top: 1px solid #bdc3c7;
+    margin-bottom: 10px;
+}
+
+
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    .pages_navigation ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .pages_navigation li {
+        margin: 5px 0;
+    }
+    
+    .index_navigation a {
+        display: block;
+        margin: 5px 0;
+    }
+}
